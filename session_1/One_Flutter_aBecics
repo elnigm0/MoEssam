@@ -1,0 +1,69 @@
+//Question 1
+1. what is mobile development?
+Answer: هو تطوير تطبيقات الهاتف وعنلية بناء تطبيقات تعمل على التابلت هناك طريقتين
+1- Native platform 
+2- Cross-platform
+=======================================
+
+//Question 2
+2. What is Native Development?
+ Answer:بنستخدمة لبناء تطبيق مخصص وموجه لنظام واحد فقط بكل تفاصيلة 
+ #Android => java and kotlin
+ #iOS => Swift 
+=======================================
+
+
+ //Question 3
+3. What is Cross Platform?
+Answer: نكتب كود واحد بس ويعمل على انظمة التشغيل المختلفة مش موجه لنظام معين 
+=======================================
+
+
+
+ //Question 4
+ 
+4. Mention three Cross Platform frameworks.
+_ Flutter 
+_ React Native 
+_ NET MAVL 
+=======================================
+
+
+
+ //Question 5
+ 5. What are the native languages for Android and iOS?
+  #Android => java and kotlin
+ #iOS => Swift 
+=======================================
+
+
+
+//Question 6
+
+6. Explain one advantage of Flutter.
+Answer: بيوفر الوقت والمجهود لان بتكتب كود واحد وكمان بيفوم بريم واجهة المستخدم الخاصة به بنفسة 
+Renders ist own UI 
+تصميم موحد 
+=======================================
+
+
+
+//Question 7
+
+
+7. Explain one difference between Flutter and React Native.
+
+
+1- UI Redering (رسم واجهة النستخدم)
+- Flutter: يرسم واجهة المستخدم بنفسة بكسل بيكسل 
+- React Native: يعتمد على عناصر النظام الأساسية في الرسم 
+-------------------------------------------------
+2- consistency (التطابق والتناسق)
+- Flutter: الواجهه متطابقة تماما ونفس الشكل على جميع المنصات 
+- React Native: شكل الواجهه يتغير على حسب النظام الذي يعمل علية 
+-------------------------------------------------
+2- Result (النتيجة)
+- Flutter: يمنحك تصميما موحداً وجمبلا 
+- React Native:يمنحك مظهرا ومأنة مخصص لمل نظام تطبيق اصيل يعني 
+
+=======================================

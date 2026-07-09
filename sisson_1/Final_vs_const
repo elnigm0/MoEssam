@@ -1,0 +1,31 @@
+============================================================
+Flutter Course - Session 1 Assignment (final vs const)
+============================================================
+
+------------------------------------------------------------
+Section 5: final vs const (Answer the questions)
+------------------------------------------------------------
+
+1. Question: What is the difference between final and const?
+Answer:
+- final: يتم تحديد قيمته وقفل الصندوق عليه أثناء وقت التشغيل (Runtime)، المرجع ثابت ولكن محتويات القوائم مرنة ويمكن تعديلها.
+- const: يتم تحديد قيمته وتجميده تماماً أثناء وقت بناء الكود (Compile-time)، ومستحيل تعديل المرجع أو المحتويات نهائياً.
+
+2. Question: When is final evaluated?
+Answer:
+- At Runtime (أثناء وقت التشغيل الفعلي للتطبيق على الموبايل).
+
+3. Question: When is const evaluated?
+Answer:
+- At Compile-time (أثناء وقت ترجمة وبناء الكود بواسطة الكمبيوتر قبل التشغيل).
+
+4. Question: Write one example using final.
+Answer (Dart Code):
+final currentTime = DateTime.now();
+(وظيفة الكود: إنشاء ثابت يأخذ وقت الساعة الحالي فور فتح التطبيق ويقفل عليه).
+
+5. Question: Write one example using const.
+Answer (Dart Code):
+const pi = 3.14;
+(وظيفة الكود: إنشاء ثابت مجمد تماماً ومعروف للكمبيوتر مسبقاً أثناء كتابة الكود).
+============================================================

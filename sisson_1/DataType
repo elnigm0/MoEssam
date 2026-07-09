@@ -1,0 +1,48 @@
+============================================================
+Flutter Course - Session 1 Assignment (Data Types & Variables)
+============================================================
+
+------------------------------------------------------------
+Section 2: Data Types (Write the correct Dart data type for each value)
+------------------------------------------------------------
+
+1. Value: 5
+Question: Write the correct Dart data type for 5.
+Answer: int (نوع بيانات مخصص للأرقام الصحيحة).
+
+2. Value: 3.14
+Question: Write the correct Dart data type for 3.14.
+Answer: double (نوع بيانات مخصص للأرقام العشرية والكسرية).
+
+3. Value: "Kareem"
+Question: Write the correct Dart data type for "Kareem".
+Answer: String (نوع بيانات مخصص للنصوص والكلمات).
+
+4. Value: true
+Question: Write the correct Dart data type for true.
+Answer: bool (نوع بيانات مخصص للقيم المنطقية: صح أو خطأ).
+
+5. Value: ["Ahmed", "Ali"]
+Question: Write the correct Dart data type for ["Ahmed", "Ali"].
+Answer: List (نوع بيانات مخصص لعمل قوائم من العناصر).
+
+6. Value: { "name": "Ahmed" }
+Question: Write the correct Dart data type for { "name": "Ahmed" }.
+Answer: Map (نوع بيانات مخصص للمفاتيح والقيم المقابلة لها).
+
+
+------------------------------------------------------------
+Section 3: Variables (Write Dart code for each of the following)
+------------------------------------------------------------
+
+1. Question: Create an integer variable called age.
+Answer (Dart Code):
+int age; 
+(وظيفة الكود: إنشاء متغير من نوع رقم صحيح واسمه age).
+
+2. Question: Create a String variable called studentName.
+Answer (Dart Code):
+String studentName;
+(وظيفة الكود: إنشاء متغير من نوع نصي واسمه studentName).
+
+============================================================

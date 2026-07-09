@@ -1,0 +1,41 @@
+============================================================
+Flutter Course - Session 1 Assignment (Challenge Question - Bonus)
+============================================================
+
+Question: Create a Student Management program that:
+- Stores three students inside a List.
+- Each student is represented as a Map.
+- Print every student's name.
+- Add a new student.
+- Remove one student.
+- Print the final List.
+
+Answer (Complete Dart Program):
+
+void main() {
+  // 1. Stores three students inside a List, each student is represented as a Map.
+  List<Map<String, dynamic>> students = [
+    {"id": 1, "name": "Mohamed", "age": 20},
+    {"id": 2, "name": "Ahmed", "age": 22},
+    {"id": 3, "name": "Kareem", "age": 21}
+  ];
+
+  // 2. Print every student's name.
+  print("--- Every Student's Name ---");
+  students.forEach((student) => print(student["name"]));
+
+  // 3. Add a new student.
+  Map<String, dynamic> newStudent = {"id": 4, "name": "Ali", "age": 23};
+  students.add(newStudent);
+  print("\n[Added new student: Ali]");
+
+  // 4. Remove one student (Removing the second student at index 1).
+  students.removeAt(1);
+  print("[Removed student at index 1]");
+
+  // 5. Print the final List.
+  print("\n--- Final Students List ---");
+  print(students);
+}
+
+============================================================

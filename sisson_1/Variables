@@ -1,0 +1,52 @@
+============================================================
+Flutter Course - Session 1 Assignment (Variables & var vs dynamic)
+============================================================
+
+------------------------------------------------------------
+Section 3: Variables (Write Dart code for each of the following)
+------------------------------------------------------------
+
+1. Question: Create an integer variable called age.
+Answer (Dart Code):
+int age;
+(وظيفة الكود: إنشاء متغير من نوع رقم صحيح واسمه age).
+
+2. Question: Create a String variable called studentName.
+Answer (Dart Code):
+String studentName;
+(وظيفة الكود: إنشاء متغير من نوع نصي واسمه studentName).
+
+3. Question: Create a bool variable called isStudent.
+Answer (Dart Code):
+bool isStudent;
+(وظيفة الكود: إنشاء متغير منطقي يقبل قيمتين فقط true أو false واسمه isStudent).
+
+4. Question: Create a double variable called salary.
+Answer (Dart Code):
+double salary;
+(وظيفة الكود: إنشاء متغير من نوع رقم عشري أو كسر واسمه salary).
+
+5. Question: Create a List of three names.
+Answer (Dart Code):
+List<String> names = ["Mohamed", "Ahmed", "Kareem"];
+(وظيفة الكود: إنشاء قائمة تحتوي على ثلاثة أسماء نصية واسم القائمة names).
+
+6. Question: Create a Map containing: name, age, city
+Answer (Dart Code):
+Map<String, dynamic> person = {
+  "name": "Mohamed",
+  "age": 20,
+  "city": "Alexandria"
+};
+(وظيفة الكود: إنشاء خريطة بيانات تحتوي على مفاتيح وقيم لـ الاسم والعمر والمدينة).
+
+
+------------------------------------------------------------
+Section 4: var vs dynamic (Answer the questions)
+------------------------------------------------------------
+
+1. Question: What is the difference between var and dynamic?
+Answer:
+- var: تحزر نوع البيانات تلقائياً من أول قيمة ممررة وتقفل الصندوق عليها تماماً، ومستحيل يغير نوعه لاحقاً.
+- dynamic: متغير مرن وحر تماماً، يسمح لك بتغيير نوع البيانات المخزنة داخله في أي وقت (مثل وضع رقم ثم حذفه ووضع نص).
+============================================================

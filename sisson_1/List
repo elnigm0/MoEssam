@@ -1,0 +1,55 @@
+============================================================
+Flutter Course - Session 1 Assignment (Lists)
+============================================================
+
+1. Question: Create a List of five cities.
+Answer (Dart Code):
+List<String> cities = ["Cairo", "Alexandria", "Giza", "Luxor", "Aswan"];
+(وظيفة الكود: إنشاء قائمة تحتوي على 5 مدن نصية).
+
+2. Question: Add one city.
+Answer (Dart Code):
+cities.add("Sohag");
+(وظيفة الكود: إضافة مدينة جديدة إلى نهاية القائمة).
+
+3. Question: Remove the third city.
+Answer (Dart Code):
+cities.removeAt(2);
+(وظيفة الكود: حذف المدينة الثالثة باستعمال الـ index رقم 2 لأن العد يبدأ من صفر).
+
+4. Question: Insert a city at index 2.
+Answer (Dart Code):
+cities.insert(2, "Tanta");
+(وظيفة الكود: حشر مدينة جديدة في مكان محدد بالقائمة وهو الـ index رقم 2).
+
+5. Question: Print the first item.
+Answer (Dart Code):
+print(cities.first);
+(وظيفة الكود: طباعة العنصر الأول في القائمة).
+
+6. Question: Print the last item.
+Answer (Dart Code):
+print(cities.last);
+(وظيفة الكود: طباعة العنصر الأخير في القائمة).
+
+7. Question: Print the length of the List.
+Answer (Dart Code):
+print(cities.length);
+(وظيفة الكود: طباعة عدد عناصر القائمة الإجمالي).
+
+8. Question: Check if the List contains "Cairo".
+Answer (Dart Code):
+print(cities.contains("Cairo"));
+(وظيفة الكود: فحص وطباعة هل كلمة القاهرة موجودة داخل القائمة أم لا).
+
+9. Question: Sort the list.
+Answer (Dart Code):
+cities.sort();
+(وظيفة الكود: ترتيب عناصر القائمة أبجدياً).
+
+10. Question: Clear the List.
+Answer (Dart Code):
+cities.clear();
+(وظيفة الكود: تفريغ القائمة وحذف جميع العناصر الموجودة داخلها).
+
+============================================================

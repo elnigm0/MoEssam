@@ -1,0 +1,53 @@
+============================================================
+Flutter Course - Session 1 Assignment (10. Coding Challenge Bonus)
+============================================================
+
+Question: Write a complete Dart program that demonstrates ALL of the basic concepts (Variables, int, double, bool, String, List, Map, var, dynamic, final, const, List operations, Printing output).
+
+Answer (Complete Dart Program):
+
+void main() {
+  // 1. Types & Variables
+  int age = 20;
+  double salary = 1500.50;
+  bool isStudent = true;
+  String name = "Mohamed";
+  
+  // 2. var & dynamic
+  var city = "Alexandria"; 
+  dynamic flexibleValue = 100;
+  flexibleValue = "Changed to Text";
+
+  // 3. final & const
+  final currentTime = DateTime.now();
+  const pi = 3.14;
+
+  // 4. List & Map
+  List<String> cities = ["Cairo", "Giza"];
+  Map<String, dynamic> userProfile = {
+    "name": name,
+    "age": age,
+    "city": city
+  };
+
+  // 5. List Operations
+  cities.add("Aswan");
+  cities.insert(1, "Luxor");
+  cities.removeAt(0);
+
+  // 6. Printing Output
+  print("User Name: $name");
+  print("Age: $age");
+  print("Salary: $salary");
+  print("Is Student: $isStudent");
+  print("City: $city");
+  print("Flexible Value: $flexibleValue");
+  print("Current Time (final): $currentTime");
+  print("Pi Constant (const): $pi");
+  print("Cities List: $cities");
+  print("User Profile Map: $userProfile");
+  print("List Length: ${cities.length}");
+  print("Contains Aswan? ${cities.contains("Aswan")}");
+}
+
+============================================================

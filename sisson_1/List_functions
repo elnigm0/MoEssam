@@ -1,0 +1,30 @@
+============================================================
+Flutter Course - Session 1 Assignment (List Functions)
+============================================================
+
+1. Question: Use map()
+Answer (Dart Code):
+var upperCities = cities.map((city) => city.toUpperCase()).toList();
+(وظيفة الكود: تحويل وتعديل كل عنصر داخل القائمة؛ هنا مثلاً حولنا الحروف لكبيرة).
+
+2. Question: Use where()
+Answer (Dart Code):
+var longNames = cities.where((city) => city.length > 5).toList();
+(وظيفة الكود: فلترة وتصفية القائمة بناءً على شرط معين واستخراج العناصر المطابقة).
+
+3. Question: Use any()
+Answer (Dart Code):
+bool hasCairo = cities.any((city) => city == "Cairo");
+(وظيفة الكود: فحص للتأكد؛ هل يوجد "عنصر واحد على الأقل" داخل القائمة يطابق الشرط؟).
+
+4. Question: Use every()
+Answer (Dart Code):
+bool allLong = cities.every((city) => city.length > 2);
+(وظيفة الكود: فحص صارم؛ هل "كل عناصر القائمة بلا استثناء" تطابق هذا الشرط؟).
+
+5. Question: Use forEach()
+Answer (Dart Code):
+cities.forEach((city) => print(city));
+(وظيفة الكود: عمل تكرار (Loop) للمرور على عناصر القائمة واحداً تلو الآخر وتنفيذ أمر عليها).
+
+============================================================

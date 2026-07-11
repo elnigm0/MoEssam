@@ -1,0 +1,29 @@
+//Qes 1
+create an example for every oop principle codeing?
+1-Abstraction
+//مثال 
+abstract class PaymentSystem {
+  void pay(double amount);
+}
+
+2-Inheritance
+//مثال
+class character {
+String name; int health;
+void attack() {...}
+}
+
+3-Polymorphism
+//مثال
+PaymentSystem myPay = new PayPalpayment();
+
+4-Encapsulation
+//مش لاقي مثال 
+
+
+
+
+
+
+
+
